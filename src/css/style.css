@@ -1,0 +1,30 @@
+body {
+    background-color: beige;
+}
+
+.tooltip-btn {
+    width: 150px;
+
+    margin: 150px auto;
+    padding: 10px 15px;
+    display: block;
+
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 12px;
+    transition: 0.25s box-shadow ease-in-out, 0.25s color ease, 0.25s background-color ease;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.tooltip-btn:hover {
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.3);
+}
+
+.tooltip-btn:active {
+    color: beige;
+    background-color: darkslategray;
+}
